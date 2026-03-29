@@ -15,7 +15,7 @@ export const useCounter = () => {
 		dispatch(decrement(id));
 	};
 
-	// ✅ total count calculation
+	// total count
 	const total = counters.reduce((sum, counter) => sum + counter.value, 0);
 
 	return {
