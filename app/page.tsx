@@ -1,5 +1,6 @@
 import Counter from "./components/Counter";
 import Products from "./components/Products";
+import Cart from "./components/Cart";
 
 export default function Home() {
 	return (
@@ -7,6 +8,9 @@ export default function Home() {
 			{/* <Counter /> */}
 			<div className="Pt-8">
 				<Products />
+			</div>
+			<div className="grid grid-cols-2 gap-6 p-6">
+				<Cart />
 			</div>
 		</div>
 	);
